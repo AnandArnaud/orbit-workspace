@@ -20,7 +20,7 @@ export default function Dashboard() {
     if (!title.trim()) return;
     const task = { id: Date.now(), title: title.trim(), project, done: false };
     setTasks((t) => [task, ...t]);
-    // No product analytics wired in yet — just log the action.
+    // Log the action.
     console.log("create_task", { title: task.title, project: task.project });
     setTitle("");
   }
