@@ -6,7 +6,7 @@ Orbit is a minimal SaaS project workspace — sign up, log in, create and comple
 
 It is intentionally small. The user-action handlers log to the console.
 
-## User actions worth tracking
+## Key user actions
 
 sign up · log in · create task · complete task · invite · upgrade
 
